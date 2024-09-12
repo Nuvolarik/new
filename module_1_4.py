@@ -1,8 +1,6 @@
-# "Погода этой осенью - просто замечательная!"
 my_string = input('')
 print(len(my_string))
 
-my_string = "Погода этой осенью - просто замечательная!"
 print(my_string.upper())
 print(my_string.lower())
 print(my_string.replace(' ', ''))
