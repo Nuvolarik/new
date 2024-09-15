@@ -8,8 +8,8 @@ print(my_dict['Keanu'])
 my_dict.update({'Bruce': 1955,
                 'Chuck': 1940})
 
-s = my_dict.pop('Sylvester')
-print(s)
+del my_dict['Sylvester']
+print(my_dict.get('Sylvester'))
 
 print(my_dict)
 print('__________')
