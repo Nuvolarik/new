@@ -2,14 +2,13 @@ my_dict = {'Liam': 1952, 'Sylvester': 1946, 'Jackie': 1954}
 print(my_dict)
 
 print(my_dict['Jackie'])
-my_dict['Keanu'] = 1964
-print(my_dict['Keanu'])
+print(my_dict.get('Keanu'))
 
 my_dict.update({'Bruce': 1955,
                 'Chuck': 1940})
 
-del my_dict['Sylvester']
-print(my_dict.get('Sylvester'))
+s = my_dict.pop('Sylvester')
+print(s)
 
 print(my_dict)
 print('__________')
