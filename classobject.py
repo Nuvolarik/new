@@ -2,6 +2,7 @@ class Human:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        self.say_info()
 
     def say_info(self):
         print(f'Привет, меня зовут {self.name}, мне {self.age}')
@@ -13,6 +14,4 @@ class Human:
 den = Human('Денис', 23)
 max = Human('Макс', 45)
 
-den.say_info()
-max.say_info()
 max.birthday()
